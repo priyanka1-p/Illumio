@@ -26,12 +26,12 @@ This program parses AWS VPC flow log data and maps each log entry to a tag based
 ```bash
 pip install pandas
 
-## Command to Run
+_ Command to Run
 python flow_log_parser.ipynb --log_file <path_to_flow_log_file> --lookup_table <path_to_lookup_table>
-
+---
 Steps to Create a VPC Setup
-Create a VPC:
 
+Create a VPC:
 Go to the VPC dashboard in the AWS Management Console.
 Click on Your VPCs in the left navigation pane.
 Click on Create VPC.
